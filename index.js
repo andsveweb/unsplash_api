@@ -1,4 +1,6 @@
-const accessKey = 'TSp8pakhqI5jPt46lRgEAfHQIyzAjBJ1YbhRUEnS9hY';
+
+import UNSPLASH_API_KEY from "./apikey.js";
+const accessKey = UNSPLASH_API_KEY;
 
 const formEl = document.querySelector('form');
 const inputEl = document.getElementById('search-input');
